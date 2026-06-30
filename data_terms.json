@@ -1,0 +1,1310 @@
+[
+  {
+    "abbr": "AAA",
+    "term": "Authentication, Authorization, and Accounting"
+  },
+  {
+    "abbr": "ACL",
+    "term": "Access Control List"
+  },
+  {
+    "abbr": "AES",
+    "term": "Advanced Encryption Standard"
+  },
+  {
+    "abbr": "AES-256",
+    "term": "Advanced Encryption Standards 256-bit"
+  },
+  {
+    "abbr": "AH",
+    "term": "Authentication Header"
+  },
+  {
+    "abbr": "AI",
+    "term": "Artificial Intelligence"
+  },
+  {
+    "abbr": "AIS",
+    "term": "Automated Indicator Sharing"
+  },
+  {
+    "abbr": "ALE",
+    "term": "Annualized Loss Expectancy"
+  },
+  {
+    "abbr": "AP",
+    "term": "Access Point"
+  },
+  {
+    "abbr": "API",
+    "term": "Application Programming Interface"
+  },
+  {
+    "abbr": "APT",
+    "term": "Advanced Persistent Threat"
+  },
+  {
+    "abbr": "ARO",
+    "term": "Annualized Rate of Occurrence"
+  },
+  {
+    "abbr": "ARP",
+    "term": "Address Resolution Protocol"
+  },
+  {
+    "abbr": "ASLR",
+    "term": "Address Space Layout Randomization"
+  },
+  {
+    "abbr": "ATT&CK",
+    "term": "Adversarial Tactics, Techniques, and Common Knowledge"
+  },
+  {
+    "abbr": "AUP",
+    "term": "Acceptable Use Policy"
+  },
+  {
+    "abbr": "AV",
+    "term": "Antivirus"
+  },
+  {
+    "abbr": "BASH",
+    "term": "Bourne Again Shell"
+  },
+  {
+    "abbr": "BCP",
+    "term": "Business Continuity Planning"
+  },
+  {
+    "abbr": "BGP",
+    "term": "Border Gateway Protocol"
+  },
+  {
+    "abbr": "BIA",
+    "term": "Business Impact Analysis"
+  },
+  {
+    "abbr": "BIOS",
+    "term": "Basic Input/Output System"
+  },
+  {
+    "abbr": "BPA",
+    "term": "Business Partners Agreement"
+  },
+  {
+    "abbr": "BPDU",
+    "term": "Bridge Protocol Data Unit"
+  },
+  {
+    "abbr": "BYOD",
+    "term": "Bring Your Own Device"
+  },
+  {
+    "abbr": "CA",
+    "term": "Certificate Authority"
+  },
+  {
+    "abbr": "CAPTCHA",
+    "term": "Completely Automated Public Turing Test to Tell Computers and Humans Apart"
+  },
+  {
+    "abbr": "CAR",
+    "term": "Corrective Action Report"
+  },
+  {
+    "abbr": "CASB",
+    "term": "Cloud Access Security Broker"
+  },
+  {
+    "abbr": "CBC",
+    "term": "Cipher Block Chaining"
+  },
+  {
+    "abbr": "CCMP",
+    "term": "Counter Mode/CBC-MAC Protocol"
+  },
+  {
+    "abbr": "CCTV",
+    "term": "Closed-circuit Television"
+  },
+  {
+    "abbr": "CERT",
+    "term": "Computer Emergency Response Team"
+  },
+  {
+    "abbr": "CFB",
+    "term": "Cipher Feedback"
+  },
+  {
+    "abbr": "CHAP",
+    "term": "Challenge Handshake Authentication Protocol"
+  },
+  {
+    "abbr": "CIA",
+    "term": "Confidentiality, Integrity, Availability"
+  },
+  {
+    "abbr": "CIO",
+    "term": "Chief Information Officer"
+  },
+  {
+    "abbr": "CIRT",
+    "term": "Computer Incident Response Team"
+  },
+  {
+    "abbr": "CMS",
+    "term": "Content Management System"
+  },
+  {
+    "abbr": "COOP",
+    "term": "Continuity of Operation Planning"
+  },
+  {
+    "abbr": "COPE",
+    "term": "Corporate Owned, Personally Enabled"
+  },
+  {
+    "abbr": "CP",
+    "term": "Contingency Planning"
+  },
+  {
+    "abbr": "CRC",
+    "term": "Cyclical Redundancy Check"
+  },
+  {
+    "abbr": "CRL",
+    "term": "Certificate Revocation List"
+  },
+  {
+    "abbr": "CSO",
+    "term": "Chief Security Officer"
+  },
+  {
+    "abbr": "CSP",
+    "term": "Cloud Service Provider"
+  },
+  {
+    "abbr": "CSR",
+    "term": "Certificate Signing Request"
+  },
+  {
+    "abbr": "CSRF",
+    "term": "Cross-site Request Forgery"
+  },
+  {
+    "abbr": "CSU",
+    "term": "Channel Service Unit"
+  },
+  {
+    "abbr": "CTM",
+    "term": "Counter Mode"
+  },
+  {
+    "abbr": "CTO",
+    "term": "Chief Technology Officer"
+  },
+  {
+    "abbr": "CVE",
+    "term": "Common Vulnerability Enumeration"
+  },
+  {
+    "abbr": "CVSS",
+    "term": "Common Vulnerability Scoring System"
+  },
+  {
+    "abbr": "CYOD",
+    "term": "Choose Your Own Device"
+  },
+  {
+    "abbr": "DAC",
+    "term": "Discretionary Access Control"
+  },
+  {
+    "abbr": "DBA",
+    "term": "Database Administrator"
+  },
+  {
+    "abbr": "DDoS",
+    "term": "Distributed Denial of Service"
+  },
+  {
+    "abbr": "DEP",
+    "term": "Data Execution Prevention"
+  },
+  {
+    "abbr": "DES",
+    "term": "Digital Encryption Standard"
+  },
+  {
+    "abbr": "DHCP",
+    "term": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "abbr": "DHE",
+    "term": "Diffie-Hellman Ephemeral"
+  },
+  {
+    "abbr": "DKIM",
+    "term": "DomainKeys Identified Mail"
+  },
+  {
+    "abbr": "DLL",
+    "term": "Dynamic Link Library"
+  },
+  {
+    "abbr": "DLP",
+    "term": "Data Loss Prevention"
+  },
+  {
+    "abbr": "DMARC",
+    "term": "Domain Message Authentication Reporting and Conformance"
+  },
+  {
+    "abbr": "DNAT",
+    "term": "Destination Network Address Translation"
+  },
+  {
+    "abbr": "DNS",
+    "term": "Domain Name System"
+  },
+  {
+    "abbr": "DoS",
+    "term": "Denial of Service"
+  },
+  {
+    "abbr": "DPO",
+    "term": "Data Privacy Officer"
+  },
+  {
+    "abbr": "DRP",
+    "term": "Disaster Recovery Plan"
+  },
+  {
+    "abbr": "DSA",
+    "term": "Digital Signature Algorithm"
+  },
+  {
+    "abbr": "DSL",
+    "term": "Digital Subscriber Line"
+  },
+  {
+    "abbr": "EAP",
+    "term": "Extensible Authentication Protocol"
+  },
+  {
+    "abbr": "ECB",
+    "term": "Electronic Code Book"
+  },
+  {
+    "abbr": "ECC",
+    "term": "Elliptic Curve Cryptography"
+  },
+  {
+    "abbr": "ECDHE",
+    "term": "Elliptic Curve Diffie-Hellman Ephemeral"
+  },
+  {
+    "abbr": "ECDSA",
+    "term": "Elliptic Curve Digital Signature Algorithm"
+  },
+  {
+    "abbr": "EDR",
+    "term": "Endpoint Detection and Response"
+  },
+  {
+    "abbr": "EFS",
+    "term": "Encrypted File System"
+  },
+  {
+    "abbr": "ERP",
+    "term": "Enterprise Resource Planning"
+  },
+  {
+    "abbr": "ESN",
+    "term": "Electronic Serial Number"
+  },
+  {
+    "abbr": "ESP",
+    "term": "Encapsulated Security Payload"
+  },
+  {
+    "abbr": "FACL",
+    "term": "File System Access Control List"
+  },
+  {
+    "abbr": "FDE",
+    "term": "Full Disk Encryption"
+  },
+  {
+    "abbr": "FIM",
+    "term": "File Integrity Management"
+  },
+  {
+    "abbr": "FPGA",
+    "term": "Field Programmable Gate Array"
+  },
+  {
+    "abbr": "FRR",
+    "term": "False Rejection Rate"
+  },
+  {
+    "abbr": "FTP",
+    "term": "File Transfer Protocol"
+  },
+  {
+    "abbr": "FTPS",
+    "term": "Secured File Transfer Protocol"
+  },
+  {
+    "abbr": "GCM",
+    "term": "Galois Counter Mode"
+  },
+  {
+    "abbr": "GDPR",
+    "term": "General Data Protection Regulation"
+  },
+  {
+    "abbr": "GPG",
+    "term": "Gnu Privacy Guard"
+  },
+  {
+    "abbr": "GPO",
+    "term": "Group Policy Object"
+  },
+  {
+    "abbr": "GPS",
+    "term": "Global Positioning System"
+  },
+  {
+    "abbr": "GPU",
+    "term": "Graphics Processing Unit"
+  },
+  {
+    "abbr": "GRE",
+    "term": "Generic Routing Encapsulation"
+  },
+  {
+    "abbr": "HA",
+    "term": "High Availability"
+  },
+  {
+    "abbr": "HDD",
+    "term": "Hard Disk Drive"
+  },
+  {
+    "abbr": "HIDS",
+    "term": "Host-based Intrusion Detection System"
+  },
+  {
+    "abbr": "HIPS",
+    "term": "Host-based Intrusion Prevention System"
+  },
+  {
+    "abbr": "HMAC",
+    "term": "Hashed Message Authentication Code"
+  },
+  {
+    "abbr": "HOTP",
+    "term": "HMAC-based One-time Password"
+  },
+  {
+    "abbr": "HSM",
+    "term": "Hardware Security Module"
+  },
+  {
+    "abbr": "HTML",
+    "term": "Hypertext Markup Language"
+  },
+  {
+    "abbr": "HTTP",
+    "term": "Hypertext Transfer Protocol"
+  },
+  {
+    "abbr": "HTTPS",
+    "term": "Hypertext Transfer Protocol Secure"
+  },
+  {
+    "abbr": "HVAC",
+    "term": "Heating, Ventilation Air Conditioning"
+  },
+  {
+    "abbr": "IaaS",
+    "term": "Infrastructure as a Service"
+  },
+  {
+    "abbr": "IaC",
+    "term": "Infrastructure as Code"
+  },
+  {
+    "abbr": "IAM",
+    "term": "Identity and Access Management"
+  },
+  {
+    "abbr": "ICMP",
+    "term": "Internet Control Message Protocol"
+  },
+  {
+    "abbr": "ICS",
+    "term": "Industrial Control Systems"
+  },
+  {
+    "abbr": "IDEA",
+    "term": "International Data Encryption Algorithm"
+  },
+  {
+    "abbr": "IDF",
+    "term": "Intermediate Distribution Frame"
+  },
+  {
+    "abbr": "IdP",
+    "term": "Identity Provider"
+  },
+  {
+    "abbr": "IDS",
+    "term": "Intrusion Detection System"
+  },
+  {
+    "abbr": "IEEE",
+    "term": "Institute of Electrical and Electronics Engineers"
+  },
+  {
+    "abbr": "IKE",
+    "term": "Internet Key Exchange"
+  },
+  {
+    "abbr": "IM",
+    "term": "Instant Messaging"
+  },
+  {
+    "abbr": "IMAP",
+    "term": "Internet Message Access Protocol"
+  },
+  {
+    "abbr": "IoC",
+    "term": "Indicators of Compromise"
+  },
+  {
+    "abbr": "IoT",
+    "term": "Internet of Things"
+  },
+  {
+    "abbr": "IP",
+    "term": "Internet Protocol"
+  },
+  {
+    "abbr": "IPS",
+    "term": "Intrusion Prevention System"
+  },
+  {
+    "abbr": "IPSec",
+    "term": "Internet Protocol Security"
+  },
+  {
+    "abbr": "IR",
+    "term": "Incident Response"
+  },
+  {
+    "abbr": "IRC",
+    "term": "Internet Relay Chat"
+  },
+  {
+    "abbr": "IRP",
+    "term": "Incident Response Plan"
+  },
+  {
+    "abbr": "ISO",
+    "term": "International Standards Organization"
+  },
+  {
+    "abbr": "ISP",
+    "term": "Internet Service Provider"
+  },
+  {
+    "abbr": "ISSO",
+    "term": "Information Systems Security Officer"
+  },
+  {
+    "abbr": "IV",
+    "term": "Initialization Vector"
+  },
+  {
+    "abbr": "KDC",
+    "term": "Key Distribution Center"
+  },
+  {
+    "abbr": "KEK",
+    "term": "Key Encryption Key"
+  },
+  {
+    "abbr": "L2TP",
+    "term": "Layer 2 Tunneling Protocol"
+  },
+  {
+    "abbr": "LAN",
+    "term": "Local Area Network"
+  },
+  {
+    "abbr": "LDAP",
+    "term": "Lightweight Directory Access Protocol"
+  },
+  {
+    "abbr": "LEAP",
+    "term": "Lightweight Extensible Authentication Protocol"
+  },
+  {
+    "abbr": "MaaS",
+    "term": "Monitoring as a Service"
+  },
+  {
+    "abbr": "MAC",
+    "term": "Mandatory Access Control"
+  },
+  {
+    "abbr": "MAC",
+    "term": "Media Access Control"
+  },
+  {
+    "abbr": "MAC",
+    "term": "Message Authentication Code"
+  },
+  {
+    "abbr": "MAN",
+    "term": "Metropolitan Area Network"
+  },
+  {
+    "abbr": "MBR",
+    "term": "Master Boot Record"
+  },
+  {
+    "abbr": "MD5",
+    "term": "Message Digest 5"
+  },
+  {
+    "abbr": "MDF",
+    "term": "Main Distribution Frame"
+  },
+  {
+    "abbr": "MDM",
+    "term": "Mobile Device Management"
+  },
+  {
+    "abbr": "MFA",
+    "term": "Multifactor Authentication"
+  },
+  {
+    "abbr": "MFD",
+    "term": "Multifunction Device"
+  },
+  {
+    "abbr": "MFP",
+    "term": "Multifunction Printer"
+  },
+  {
+    "abbr": "ML",
+    "term": "Machine Learning"
+  },
+  {
+    "abbr": "MMS",
+    "term": "Multimedia Message Service"
+  },
+  {
+    "abbr": "MOA",
+    "term": "Memorandum of Agreement"
+  },
+  {
+    "abbr": "MOU",
+    "term": "Memorandum of Understanding"
+  },
+  {
+    "abbr": "MPLS",
+    "term": "Multi-protocol Label Switching"
+  },
+  {
+    "abbr": "MSA",
+    "term": "Master Service Agreement"
+  },
+  {
+    "abbr": "MSCHAP",
+    "term": "Microsoft Challenge Handshake Authentication Protocol"
+  },
+  {
+    "abbr": "MSP",
+    "term": "Managed Service Provider"
+  },
+  {
+    "abbr": "MSSP",
+    "term": "Managed Security Service Provider"
+  },
+  {
+    "abbr": "MTBF",
+    "term": "Mean Time Between Failures"
+  },
+  {
+    "abbr": "MTTF",
+    "term": "Mean Time to Failure"
+  },
+  {
+    "abbr": "MTTR",
+    "term": "Mean Time to Recover"
+  },
+  {
+    "abbr": "MTU",
+    "term": "Maximum Transmission Unit"
+  },
+  {
+    "abbr": "NAC",
+    "term": "Network Access Control"
+  },
+  {
+    "abbr": "NAT",
+    "term": "Network Address Translation"
+  },
+  {
+    "abbr": "NDA",
+    "term": "Non-disclosure Agreement"
+  },
+  {
+    "abbr": "NFC",
+    "term": "Near Field Communication"
+  },
+  {
+    "abbr": "NGFW",
+    "term": "Next-generation Firewall"
+  },
+  {
+    "abbr": "NIDS",
+    "term": "Network-based Intrusion Detection System"
+  },
+  {
+    "abbr": "NIPS",
+    "term": "Network-based Intrusion Prevention System"
+  },
+  {
+    "abbr": "NIST",
+    "term": "National Institute of Standards & Technology"
+  },
+  {
+    "abbr": "NTFS",
+    "term": "New Technology File System"
+  },
+  {
+    "abbr": "NTLM",
+    "term": "New Technology LAN Manager"
+  },
+  {
+    "abbr": "NTP",
+    "term": "Network Time Protocol"
+  },
+  {
+    "abbr": "OAUTH",
+    "term": "Open Authorization"
+  },
+  {
+    "abbr": "OCSP",
+    "term": "Online Certificate Status Protocol"
+  },
+  {
+    "abbr": "OID",
+    "term": "Object Identifier"
+  },
+  {
+    "abbr": "OS",
+    "term": "Operating System"
+  },
+  {
+    "abbr": "OSINT",
+    "term": "Open-source Intelligence"
+  },
+  {
+    "abbr": "OSPF",
+    "term": "Open Shortest Path First"
+  },
+  {
+    "abbr": "OT",
+    "term": "Operational Technology"
+  },
+  {
+    "abbr": "OTA",
+    "term": "Over the Air"
+  },
+  {
+    "abbr": "OVAL",
+    "term": "Open Vulnerability Assessment Language"
+  },
+  {
+    "abbr": "P12",
+    "term": "PKCS #12"
+  },
+  {
+    "abbr": "P2P",
+    "term": "Peer to Peer"
+  },
+  {
+    "abbr": "PaaS",
+    "term": "Platform as a Service"
+  },
+  {
+    "abbr": "PAC",
+    "term": "Proxy Auto Configuration"
+  },
+  {
+    "abbr": "PAM",
+    "term": "Privileged Access Management"
+  },
+  {
+    "abbr": "PAM",
+    "term": "Pluggable Authentication Modules"
+  },
+  {
+    "abbr": "PAP",
+    "term": "Password Authentication Protocol"
+  },
+  {
+    "abbr": "PAT",
+    "term": "Port Address Translation"
+  },
+  {
+    "abbr": "PBKDF2",
+    "term": "Password-based Key Derivation Function 2"
+  },
+  {
+    "abbr": "PBX",
+    "term": "Private Branch Exchange"
+  },
+  {
+    "abbr": "PCAP",
+    "term": "Packet Capture"
+  },
+  {
+    "abbr": "PCI",
+    "term": "DSS Payment Card Industry Data Security Standard"
+  },
+  {
+    "abbr": "PDU",
+    "term": "Power Distribution Unit"
+  },
+  {
+    "abbr": "PEAP",
+    "term": "Protected Extensible Authentication Protocol"
+  },
+  {
+    "abbr": "PED",
+    "term": "Personal Electronic Device"
+  },
+  {
+    "abbr": "PEM",
+    "term": "Privacy Enhanced Mail"
+  },
+  {
+    "abbr": "PFS",
+    "term": "Perfect Forward Secrecy"
+  },
+  {
+    "abbr": "PGP",
+    "term": "Pretty Good Privacy"
+  },
+  {
+    "abbr": "PHI",
+    "term": "Personal Health Information"
+  },
+  {
+    "abbr": "PII",
+    "term": "Personally Identifiable Information"
+  },
+  {
+    "abbr": "PIV",
+    "term": "Personal Identity Verification"
+  },
+  {
+    "abbr": "PKCS",
+    "term": "Public Key Cryptography Standards"
+  },
+  {
+    "abbr": "PKI",
+    "term": "Public Key Infrastructure"
+  },
+  {
+    "abbr": "POP",
+    "term": "Post Office Protocol"
+  },
+  {
+    "abbr": "POTS",
+    "term": "Plain Old Telephone Service"
+  },
+  {
+    "abbr": "PPP",
+    "term": "Point-to-Point Protocol"
+  },
+  {
+    "abbr": "PPTP",
+    "term": "Point-to-Point Tunneling Protocol"
+  },
+  {
+    "abbr": "PSK",
+    "term": "Pre-shared Key"
+  },
+  {
+    "abbr": "PTZ",
+    "term": "Pan-tilt-zoom"
+  },
+  {
+    "abbr": "PUP",
+    "term": "Potentially Unwanted Program"
+  },
+  {
+    "abbr": "RA",
+    "term": "Recovery Agent"
+  },
+  {
+    "abbr": "RA",
+    "term": "Registration Authority"
+  },
+  {
+    "abbr": "RACE",
+    "term": "Research and Development in Advanced Communications Technologies in Europe"
+  },
+  {
+    "abbr": "RAD",
+    "term": "Rapid Application Development"
+  },
+  {
+    "abbr": "RADIUS",
+    "term": "Remote Authentication Dial-in User Service"
+  },
+  {
+    "abbr": "RAID",
+    "term": "Redundant Array of Inexpensive Disks"
+  },
+  {
+    "abbr": "RAS",
+    "term": "Remote Access Server"
+  },
+  {
+    "abbr": "RAT",
+    "term": "Remote Access Trojan"
+  },
+  {
+    "abbr": "RBAC",
+    "term": "Role-based Access Control"
+  },
+  {
+    "abbr": "RBAC",
+    "term": "Rule-based Access Control"
+  },
+  {
+    "abbr": "RC4",
+    "term": "Rivest Cipher version 4"
+  },
+  {
+    "abbr": "RDP",
+    "term": "Remote Desktop Protocol"
+  },
+  {
+    "abbr": "RFID",
+    "term": "Radio Frequency Identifier"
+  },
+  {
+    "abbr": "RIPEMD",
+    "term": "RACE Integrity Primitives Evaluation Message Digest"
+  },
+  {
+    "abbr": "ROI",
+    "term": "Return on Investment"
+  },
+  {
+    "abbr": "RPO",
+    "term": "Recovery Point Objective"
+  },
+  {
+    "abbr": "RSA",
+    "term": "Rivest, Shamir, & Adleman"
+  },
+  {
+    "abbr": "RTBH",
+    "term": "Remotely Triggered Black Hole"
+  },
+  {
+    "abbr": "RTO",
+    "term": "Recovery Time Objective"
+  },
+  {
+    "abbr": "RTOS",
+    "term": "Real-time Operating System"
+  },
+  {
+    "abbr": "RTP",
+    "term": "Real-time Transport Protocol"
+  },
+  {
+    "abbr": "S/MIME",
+    "term": "Secure/Multipurpose Internet Mail Extensions"
+  },
+  {
+    "abbr": "SaaS",
+    "term": "Software as a Service"
+  },
+  {
+    "abbr": "SAE",
+    "term": "Simultaneous Authentication of Equals"
+  },
+  {
+    "abbr": "SAML",
+    "term": "Security Assertions Markup Language"
+  },
+  {
+    "abbr": "SAN",
+    "term": "Storage Area Network"
+  },
+  {
+    "abbr": "SAN",
+    "term": "Subject Alternative Name"
+  },
+  {
+    "abbr": "SASE",
+    "term": "Secure Access Service Edge"
+  },
+  {
+    "abbr": "SCADA",
+    "term": "Supervisory Control and Data Acquisition"
+  },
+  {
+    "abbr": "SCAP",
+    "term": "Security Content Automation Protocol"
+  },
+  {
+    "abbr": "SCEP",
+    "term": "Simple Certificate Enrollment Protocol"
+  },
+  {
+    "abbr": "SD-WAN",
+    "term": "Software-defined Wide Area Network"
+  },
+  {
+    "abbr": "SDK",
+    "term": "Software Development Kit"
+  },
+  {
+    "abbr": "SDLC",
+    "term": "Software Development Lifecycle"
+  },
+  {
+    "abbr": "SDLM",
+    "term": "Software Development Lifecycle Methodology"
+  },
+  {
+    "abbr": "SDN",
+    "term": "Software-defined Networking"
+  },
+  {
+    "abbr": "SE",
+    "term": "Linux Security-enhanced Linux"
+  },
+  {
+    "abbr": "SED",
+    "term": "Self-encrypting Drives"
+  },
+  {
+    "abbr": "SEH",
+    "term": "Structured Exception Handler"
+  },
+  {
+    "abbr": "SFTP",
+    "term": "Secured File Transfer Protocol"
+  },
+  {
+    "abbr": "SHA",
+    "term": "Secure Hashing Algorithm"
+  },
+  {
+    "abbr": "SHTTP",
+    "term": "Secure Hypertext Transfer Protocol"
+  },
+  {
+    "abbr": "SIEM",
+    "term": "Security Information and Event Management"
+  },
+  {
+    "abbr": "SIM",
+    "term": "Subscriber Identity Module"
+  },
+  {
+    "abbr": "SLA",
+    "term": "Service-level Agreement"
+  },
+  {
+    "abbr": "SLE",
+    "term": "Single Loss Expectancy"
+  },
+  {
+    "abbr": "SMS",
+    "term": "Short Message Service"
+  },
+  {
+    "abbr": "SMTP",
+    "term": "Simple Mail Transfer Protocol"
+  },
+  {
+    "abbr": "SMTPS",
+    "term": "Simple Mail Transfer Protocol Secure"
+  },
+  {
+    "abbr": "SNMP",
+    "term": "Simple Network Management Protocol"
+  },
+  {
+    "abbr": "SOAP",
+    "term": "Simple Object Access Protocol"
+  },
+  {
+    "abbr": "SOAR",
+    "term": "Security Orchestration, Automation, Response"
+  },
+  {
+    "abbr": "SoC",
+    "term": "System on Chip"
+  },
+  {
+    "abbr": "SOC",
+    "term": "Security Operations Center"
+  },
+  {
+    "abbr": "SOW",
+    "term": "Statement of Work"
+  },
+  {
+    "abbr": "SPF",
+    "term": "Sender Policy Framework"
+  },
+  {
+    "abbr": "SPIM",
+    "term": "Spam over Internet Messaging"
+  },
+  {
+    "abbr": "SQL",
+    "term": "Structured Query Language"
+  },
+  {
+    "abbr": "SQLi",
+    "term": "SQL Injection"
+  },
+  {
+    "abbr": "SRTP",
+    "term": "Secure Real-Time Protocol"
+  },
+  {
+    "abbr": "SSD",
+    "term": "Solid State Drive"
+  },
+  {
+    "abbr": "SSH",
+    "term": "Secure Shell"
+  },
+  {
+    "abbr": "SSL",
+    "term": "Secure Sockets Layer"
+  },
+  {
+    "abbr": "SSO",
+    "term": "Single Sign-on"
+  },
+  {
+    "abbr": "STIX",
+    "term": "Structured Threat Information eXchange"
+  },
+  {
+    "abbr": "SWG",
+    "term": "Secure Web Gateway"
+  },
+  {
+    "abbr": "TACACS+",
+    "term": "Terminal Access Controller Access Control System"
+  },
+  {
+    "abbr": "TAXII",
+    "term": "Trusted Automated eXchange of Indicator Information"
+  },
+  {
+    "abbr": "TCP/IP",
+    "term": "Transmission Control Protocol/Internet Protocol"
+  },
+  {
+    "abbr": "TGT",
+    "term": "Ticket Granting Ticket"
+  },
+  {
+    "abbr": "TKIP",
+    "term": "Temporal Key Integrity Protocol"
+  },
+  {
+    "abbr": "TLS",
+    "term": "Transport Layer Security"
+  },
+  {
+    "abbr": "TOC",
+    "term": "Time-of-check"
+  },
+  {
+    "abbr": "TOTP",
+    "term": "Time-based One-time Password"
+  },
+  {
+    "abbr": "TOU",
+    "term": "Time-of-use"
+  },
+  {
+    "abbr": "TPM",
+    "term": "Trusted Platform Module"
+  },
+  {
+    "abbr": "TTP",
+    "term": "Tactics, Techniques, and Procedures"
+  },
+  {
+    "abbr": "TSIG",
+    "term": "Transaction Signature"
+  },
+  {
+    "abbr": "UAT",
+    "term": "User Acceptance Testing"
+  },
+  {
+    "abbr": "UAV",
+    "term": "Unmanned Aerial Vehicle"
+  },
+  {
+    "abbr": "UDP",
+    "term": "User Datagram Protocol"
+  },
+  {
+    "abbr": "UEFI",
+    "term": "Unified Extensible Firmware Interface"
+  },
+  {
+    "abbr": "UEM",
+    "term": "Unified Endpoint Management"
+  },
+  {
+    "abbr": "UPS",
+    "term": "Uninterruptable Power Supply"
+  },
+  {
+    "abbr": "URI",
+    "term": "Uniform Resource Identifier"
+  },
+  {
+    "abbr": "URL",
+    "term": "Universal Resource Locator"
+  },
+  {
+    "abbr": "USB",
+    "term": "Universal Serial Bus"
+  },
+  {
+    "abbr": "USB",
+    "term": "OTG USB On the Go"
+  },
+  {
+    "abbr": "UTM",
+    "term": "Unified Threat Management"
+  },
+  {
+    "abbr": "UTP",
+    "term": "Unshielded Twisted Pair"
+  },
+  {
+    "abbr": "VBA",
+    "term": "Visual Basic"
+  },
+  {
+    "abbr": "VDE",
+    "term": "Virtual Desktop Environment"
+  },
+  {
+    "abbr": "VDI",
+    "term": "Virtual Desktop Infrastructure"
+  },
+  {
+    "abbr": "VLAN",
+    "term": "Virtual Local Area Network"
+  },
+  {
+    "abbr": "VLSM",
+    "term": "Variable Length Subnet Masking"
+  },
+  {
+    "abbr": "VM",
+    "term": "Virtual Machine"
+  },
+  {
+    "abbr": "VoIP",
+    "term": "Voice over IP"
+  },
+  {
+    "abbr": "VPC",
+    "term": "Virtual Private Cloud"
+  },
+  {
+    "abbr": "VPN",
+    "term": "Virtual Private Network"
+  },
+  {
+    "abbr": "VTC",
+    "term": "Video Teleconferencing"
+  },
+  {
+    "abbr": "WAF",
+    "term": "Web Application Firewall"
+  },
+  {
+    "abbr": "WAP",
+    "term": "Wireless Access Point"
+  },
+  {
+    "abbr": "WEP",
+    "term": "Wired Equivalent Privacy"
+  },
+  {
+    "abbr": "WIDS",
+    "term": "Wireless Intrusion Detection System"
+  },
+  {
+    "abbr": "WIPS",
+    "term": "Wireless Intrusion Prevention System"
+  },
+  {
+    "abbr": "WO",
+    "term": "Work Order"
+  },
+  {
+    "abbr": "WPA",
+    "term": "Wi-Fi Protected Access"
+  },
+  {
+    "abbr": "WPS",
+    "term": "Wi-Fi Protected Setup"
+  },
+  {
+    "abbr": "WTLS",
+    "term": "Wireless TLS"
+  },
+  {
+    "abbr": "XDR",
+    "term": "Extended Detection and Response"
+  },
+  {
+    "abbr": "XML",
+    "term": "Extensible Markup Language"
+  },
+  {
+    "abbr": "XOR",
+    "term": "Exclusive Or"
+  },
+  {
+    "abbr": "XSRF",
+    "term": "Cross-site Request Forgery"
+  },
+  {
+    "abbr": "XSS",
+    "term": "Cross-site Scripting"
+  }
+]

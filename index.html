@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CompTIA Security+ SY0-701 Study Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Top Glassmorphism Navigation -->
+  <nav class="top-nav" id="topNav">
+    <a href="#" class="nav-brand" onclick="switchView('dashboard'); return false;">
+      <div class="brand-icon">&#128274;</div>
+      <span>Security+ <span style="color:var(--accent-cyan)">SY0-701</span></span>
+    </a>
+
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle Dark/Light Mode">&#127769;</button>
+
+    <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()">&#9776;</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><button class="nav-link active" data-view="dashboard" onclick="switchView('dashboard')">Dashboard</button></li>
+      <li><button class="nav-link" data-view="practice" onclick="switchView('practice')">Practice Tests</button></li>
+      <li><button class="nav-link" data-view="qcm" onclick="switchView('qcm')">QCM App</button></li>
+      <li><button class="nav-link" data-view="notes" onclick="switchView('notes')">Notes</button></li>
+      <li><button class="nav-link" data-view="terms" onclick="switchView('terms')">Dictionary</button></li>
+    </ul>
+  </nav>
+
+  <main class="main-content" id="mainContent">
+
+    <!-- ===== DASHBOARD ===== -->
+    <section id="view-dashboard" class="view active">
+      <div class="hero">
+        <div class="hero-badge">&#128640; CompTIA Security+ Exam Prep</div>
+        <h1>Master the SY0-701<br/>Certification Exam</h1>
+        <p>An interactive study platform integrating practice tests, QCM quizzes, comprehensive notes, and a searchable security dictionary.</p>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="value">12</div>
+            <div class="label">Practice Exams</div>
+          </div>
+          <div class="hero-stat">
+            <div class="value">90</div>
+            <div class="label">QCM Questions</div>
+          </div>
+          <div class="hero-stat">
+            <div class="value">327</div>
+            <div class="label">Terms</div>
+          </div>
+          <div class="hero-stat">
+            <div class="value">5</div>
+            <div class="label">Domains</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <h2><span class="icon">&#128218;</span> Study Modules</h2>
+      </div>
+
+      <div class="card-grid">
+        <div class="card" onclick="switchView('practice')">
+          <div class="card-icon">&#128203;</div>
+          <h3>Practice Tests</h3>
+          <p>12 full practice exams across two sets with detailed explanations and scoring.</p>
+          <div class="card-meta">
+            <span>12 Exams</span>
+            <span>Set 01 &amp; Set 02</span>
+          </div>
+          <div class="card-progress"><div class="card-progress-bar" style="width:0%"></div></div>
+        </div>
+
+        <div class="card" onclick="switchView('qcm')">
+          <div class="card-icon green">&#9989;</div>
+          <h3>QCM Quiz</h3>
+          <p>90 interactive multiple-choice questions from ExamTopics with three study modes.</p>
+          <div class="card-meta">
+            <span>90 Questions</span>
+            <span>Quiz / Study / Shuffle</span>
+          </div>
+          <div class="card-progress"><div class="card-progress-bar" style="width:0%"></div></div>
+        </div>
+
+        <div class="card" onclick="switchView('notes')">
+          <div class="card-icon amber">&#128221;</div>
+          <h3>Notes &amp; Cheatsheet</h3>
+          <p>Comprehensive study notes covering all 5 exam domains with Arabic summaries.</p>
+          <div class="card-meta">
+            <span>5 Domains</span>
+            <span>PDF Downloads</span>
+          </div>
+          <div class="card-progress"><div class="card-progress-bar" style="width:0%"></div></div>
+        </div>
+
+        <div class="card" onclick="switchView('terms')">
+          <div class="card-icon purple">&#128366;</div>
+          <h3>Security Dictionary</h3>
+          <p>Searchable glossary of 327+ abbreviations and terms you need to know.</p>
+          <div class="card-meta">
+            <span>327 Terms</span>
+            <span>Instant Search</span>
+          </div>
+          <div class="card-progress"><div class="card-progress-bar" style="width:0%"></div></div>
+        </div>
+      </div>
+
+      <div class="section-header mt-6">
+        <h2><span class="icon">&#128640;</span> Exam Domains</h2>
+      </div>
+      <div class="card-grid-2">
+        <div class="card">
+          <div class="card-icon">1</div>
+          <h3>General Security Concepts</h3>
+          <p>Security controls, CIA triad, Zero Trust, cryptography, change management.</p>
+          <div class="card-meta"><span>12% of Exam</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon">2</div>
+          <h3>Threats, Vulnerabilities &amp; Mitigations</h3>
+          <p>Threat actors, attack vectors, malware, indicators, mitigation techniques.</p>
+          <div class="card-meta"><span>22% of Exam</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon">3</div>
+          <h3>Security Architecture</h3>
+          <p>Architecture models, cloud security, virtualization, enterprise security.</p>
+          <div class="card-meta"><span>18% of Exam</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon">4</div>
+          <h3>Security Operations</h3>
+          <p>Monitoring, incident response, vulnerability management, disaster recovery.</p>
+          <div class="card-meta"><span>28% of Exam</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon">5</div>
+          <h3>Security Program Management</h3>
+          <p>Governance, risk, compliance, privacy, third-party risk management.</p>
+          <div class="card-meta"><span>20% of Exam</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRACTICE TESTS ===== -->
+    <section id="view-practice" class="view">
+      <div class="section-header">
+        <h2><span class="icon">&#128203;</span> Practice Tests</h2>
+        <button class="back-btn" onclick="switchView('dashboard')">&#8592; Back to Dashboard</button>
+      </div>
+
+      <div class="test-set-tabs">
+        <button class="tab-btn active" onclick="switchTestSet(0)">Practice Test Set 01</button>
+        <button class="tab-btn" onclick="switchTestSet(1)">Practice Test Set 02</button>
+      </div>
+
+      <div class="tab-panel active" id="panel-set0">
+        <div class="card-grid-2">
+          <a class="exam-card" href="./Practice-test-01/1.1%20CompTIA%20Security+%20(SY0-701)%20Exam%201.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">1</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ Exam 1</h4>
+            <p class="exam-desc">First practice exam covering general security concepts and foundational topics.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-01/2.2%20CompTIA%20Security+%20(SY0-701)%20Exam%202.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">2</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ Exam 2</h4>
+            <p class="exam-desc">Second practice exam with mixed domain questions and detailed explanations.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-01/3.3%20CompTIA%20Security+%20(SY0-701)%20Exam%203.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">3</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ Exam 3</h4>
+            <p class="exam-desc">Third practice exam focusing on threats, vulnerabilities, and mitigations.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-01/4.4%20CompTIA%20Security+%20(SY0-701)%20Exam%204.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">4</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ Exam 4</h4>
+            <p class="exam-desc">Fourth practice exam covering security architecture and enterprise concepts.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-01/5.5%20CompTIA%20Security+%20(SY0-701)%20Exam%205.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">5</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ Exam 5</h4>
+            <p class="exam-desc">Fifth practice exam on security operations and incident response.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-01/6.6%20CompTIA%20Security+%20(SY0-701)%20Exam%206.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">6</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ Exam 6</h4>
+            <p class="exam-desc">Sixth practice exam covering security program management and governance.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="panel-set1">
+        <div class="card-grid-2">
+          <a class="exam-card" href="./Practice-test-02/1.1%20CompTIA%20Security+%20(SYO-701)%20%231.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">1</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ #1</h4>
+            <p class="exam-desc">First exam of second set with fresh questions and randomized order.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-02/2.2%20CompTIA%20Security+%20(SYO-701)%20%232.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">2</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ #2</h4>
+            <p class="exam-desc">Second exam of second set covering mixed domain objectives.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-02/3.3%20CompTIA%20Security+%20(SYO-701)%20%233.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">3</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ #3</h4>
+            <p class="exam-desc">Third exam of second set with advanced scenario-based questions.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-02/4.4%20CompTIA%20Security+%20(SYO-701)%20%234.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">4</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ #4</h4>
+            <p class="exam-desc">Fourth exam of second set focusing on architecture and operations.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-02/5.5%20CompTIA%20Security+%20(SYO-701)%20%235.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">5</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ #5</h4>
+            <p class="exam-desc">Fifth exam of second set on compliance, risk, and management.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+
+          <a class="exam-card" href="./Practice-test-02/6.6%20CompTIA%20Security+%20(SYO-701)%20%236.html" target="_blank">
+            <div class="exam-header">
+              <div class="exam-number">6</div>
+              <div class="exam-status">Ready</div>
+            </div>
+            <h4>CompTIA Security+ #6</h4>
+            <p class="exam-desc">Sixth exam of second set — final comprehensive review.</p>
+            <div class="exam-action">Start Exam &#8594;</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== QCM APP ===== -->
+    <section id="view-qcm" class="view">
+      <div class="section-header">
+        <h2><span class="icon">&#9989;</span> QCM Quiz App</h2>
+        <button class="back-btn" onclick="switchView('dashboard')">&#8592; Back to Dashboard</button>
+      </div>
+
+      <!-- QCM Start Screen -->
+      <div id="qcm-start" class="qcm-start">
+        <h2>Welcome to Your Security+ Exam Prep</h2>
+        <p>This interactive QCM app contains 90 CompTIA Security+ practice questions from ExamTopics. Questions 1-30 have confirmed correct answers. Questions 31-90 had hidden answers in the source.</p>
+
+        <div class="qcm-legend">
+          <div class="legend-item"><div class="legend-dot dot-confirmed"></div><span>Confirmed Answer (Q1-30)</span></div>
+          <div class="legend-item"><div class="legend-dot dot-hidden"></div><span>Hidden Answer (Q31-90)</span></div>
+        </div>
+
+        <div class="mode-grid">
+          <div class="mode-card" onclick="startQCM('sequence')">
+            <div class="mode-icon">&#127919;</div>
+            <h3>Quiz Mode</h3>
+            <p>Test yourself with all questions in sequence. Select answers and see your score at the end.</p>
+          </div>
+          <div class="mode-card" onclick="startQCM('study')">
+            <div class="mode-icon">&#128214;</div>
+            <h3>Study Mode</h3>
+            <p>Review all questions with confirmed answers displayed immediately for learning.</p>
+          </div>
+          <div class="mode-card" onclick="startQCM('shuffle')">
+            <div class="mode-icon">&#127922;</div>
+            <h3>Shuffle Mode</h3>
+            <p>Randomize question order to simulate real exam conditions and test readiness.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- QCM Quiz Screen -->
+      <div id="qcm-quiz" class="hidden">
+        <div class="quiz-card">
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" id="qcm-progress" style="width:0%"></div>
+          </div>
+
+          <div class="question-header">
+            <span class="question-number" id="qcm-qnum">Question 1 / 90</span>
+            <span class="question-status" id="qcm-status"></span>
+          </div>
+
+          <div class="question-text" id="qcm-qtext"></div>
+
+          <div class="options-list" id="qcm-options"></div>
+
+          <div id="qcm-reveal" class="hidden"></div>
+
+          <div class="quiz-controls">
+            <button class="btn btn-secondary" id="qcm-prev" onclick="qcmPrev()" disabled>&#8592; Previous</button>
+            <button class="btn btn-primary" id="qcm-next" onclick="qcmNext()">Next &#8594;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- QCM End Screen -->
+      <div id="qcm-end" class="hidden score-screen">
+        <div class="score-circle">
+          <div class="score-value" id="qcm-score">0/0</div>
+          <div class="score-label">Score</div>
+        </div>
+
+        <div class="score-grid">
+          <div class="score-stat">
+            <div class="value" id="qcm-correct">0</div>
+            <div class="label">Correct</div>
+          </div>
+          <div class="score-stat">
+            <div class="value" id="qcm-incorrect">0</div>
+            <div class="label">Incorrect</div>
+          </div>
+          <div class="score-stat">
+            <div class="value" id="qcm-confirmed">0</div>
+            <div class="label">Confirmed Answered</div>
+          </div>
+          <div class="score-stat">
+            <div class="value" id="qcm-percent">0%</div>
+            <div class="label">Accuracy</div>
+          </div>
+        </div>
+
+        <h2 style="margin-top:10px; margin-bottom:10px;">Quiz Complete!</h2>
+        <p style="color:var(--text-secondary); margin-bottom:24px;">Review your performance above and retry if needed.</p>
+
+        <div class="mode-grid" style="max-width:600px; margin:0 auto;">
+          <div class="mode-card" onclick="restartQCM()">
+            <div class="mode-icon">&#128260;</div>
+            <h3>Restart Quiz</h3>
+            <p>Try again with the same mode or pick a different one.</p>
+          </div>
+          <div class="mode-card" onclick="qcmToMenu()">
+            <div class="mode-icon">&#127968;</div>
+            <h3>Main Menu</h3>
+            <p>Return to the QCM mode selector to choose another style.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NOTES & CHEATSHEET ===== -->
+    <section id="view-notes" class="view">
+      <div class="section-header">
+        <h2><span class="icon">&#128221;</span> Notes &amp; Cheatsheet</h2>
+        <button class="back-btn" onclick="switchView('dashboard')">&#8592; Back to Dashboard</button>
+      </div>
+
+      <div class="download-cards">
+        <a class="download-card" href="./Notes-and-Cheatsheet/Security_Plus_Notes.pdf" target="_blank">
+          <div class="dl-icon">&#128196;</div>
+          <div class="dl-info">
+            <div class="dl-title">Security Plus Notes</div>
+            <div class="dl-meta">PDF &middot; Comprehensive study notes</div>
+          </div>
+        </a>
+        <a class="download-card" href="./Notes-and-Cheatsheet/CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf" target="_blank">
+          <div class="dl-icon">&#128203;</div>
+          <div class="dl-info">
+            <div class="dl-title">Exam Objectives</div>
+            <div class="dl-meta">PDF &middot; Official SY0-701 objectives</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="notes-layout" id="notes-layout">
+        <aside class="notes-sidebar" id="notes-sidebar">
+          <h3>&#128214; Sections</h3>
+          <div class="no-results" id="notes-sidebar-loading" style="font-size:0.85rem; padding:12px 0;">Loading sections...</div>
+          <ul class="notes-toc" id="notes-toc"></ul>
+        </aside>
+        <div class="notes-main" id="notes-main">
+          <div class="no-results" id="notes-main-loading" style="margin-bottom:16px;">Loading notes content...</div>
+          <div class="shimmer" style="height:200px; border-radius:12px;"></div>
+          <div class="shimmer" style="height:120px; border-radius:12px; margin-top:16px;"></div>
+          <div class="shimmer" style="height:160px; border-radius:12px; margin-top:16px;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TERMS DICTIONARY ===== -->
+    <section id="view-terms" class="view">
+      <div class="section-header">
+        <h2><span class="icon">&#128366;</span> Security Dictionary</h2>
+        <button class="back-btn" onclick="switchView('dashboard')">&#8592; Back to Dashboard</button>
+      </div>
+
+      <div class="terms-header">
+        <div class="search-box">
+          <span class="search-icon">&#128269;</span>
+          <input type="text" id="term-search" placeholder="Search abbreviations or terms..." oninput="searchTerms(this.value)" />
+        </div>
+      </div>
+
+      <div class="term-count" id="term-count">Loading terms...</div>
+      <div class="terms-grid" id="terms-grid">
+        <div class="no-results" id="terms-loading">Loading dictionary terms, please wait...</div>
+      </div>
+    </section>
+
+    <!-- ===== IFRAME WRAPPER (for embedded exams) ===== -->
+    <section id="view-iframe" class="view">
+      <div class="iframe-bar">
+        <h3 id="iframe-title">Practice Exam</h3>
+        <button class="btn btn-secondary" onclick="closeIframe()">&#10005; Close</button>
+      </div>
+      <div class="iframe-wrapper">
+        <iframe id="exam-frame" src="" title="Practice Exam"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal for term details -->
+  <div class="modal-overlay" id="term-modal" onclick="closeModal(event)">
+    <div class="modal-container" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h3>Term Details</h3>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./data_qcm.js"></script>
+  <script src="./data_terms.js"></script>
+  <script src="./data_notes.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
